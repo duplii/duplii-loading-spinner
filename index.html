@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Duplii loading spinner</title>
+	<link rel="stylesheet" href="public/style.css" />
+	<link rel="stylesheet" href="public/animation.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="http://duplii.com/images/favicon-32.png">
+	<link rel="apple-touch-icon" href="http://duplii.com/images/favicon-152.png">
+	<!-- for Facebook -->
+	<meta property="og:title" content="Duplii Animation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="public/screenshot.png" />
+	<meta property="og:url" content="http://duplii.com" />
+	<meta property="og:description" content="Duplii Animation" />
+	<meta property="og:site_name" content="Duplii – We Make Duplication Happen" />
+	<!-- for Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Duplii Animation" />
+	<meta name="twitter:description" content="Duplii Animation" />
+	<meta name="twitter:image" content="public/screenshot.png" />
+</head>
+<body>
+	<header>
+		<a href="http://duplii.com" title="Duplii | We Make Duplication Happen"><img src="http://duplii.com/images/duplii-logo.svg" alt="Duplii | We Make Duplication Happen" class="logo" /></a>
+	</header>
+
+	<div class="animation-container">
+		<div class="spinner-container">
+			<form action="" method="post">
+				<input type="text" name="name" value="Some text here">
+				<input type="email" name="name" value="email@domain.com">
+				<textarea name="name" rows="8" cols="40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </textarea>
+				<input type="submit" name="name" value="Start spinning" onclick="event.preventDefault();document.querySelector('.spinner-container').classList.toggle('spinning')">
+			</form>
+		</div>
+	</div>
+
+	<small>Example loading animation. <br>Find the source <a href="//github.com/duplii/duplii-spinner">here</a>.</small>
+</body>
+</html>

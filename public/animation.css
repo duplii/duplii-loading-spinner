@@ -1,0 +1,55 @@
+/**************************************************/
+/*************** animation specific ***************/
+/**************************************************/
+.spinner-container {
+  position: relative; }
+  .spinner-container > * {
+    -webkit-transition: 0.2833333333s linear;
+            transition: 0.2833333333s linear; }
+  .spinner-container::before,
+  .spinner-container::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    background-color: rgba(255, 95, 25, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: 0.425s linear 0.2833333333s;
+            transition: 0.425s linear 0.2833333333s; }
+  .spinner-container.spinning::before,
+  .spinner-container.spinning::after {
+    -webkit-animation: spinner-pulsing 1.7s infinite;
+            animation: spinner-pulsing 1.7s infinite;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+  .spinner-container.spinning::before {
+    -webkit-animation-delay: 0.85s;
+            animation-delay: 0.85s; }
+  .spinner-container.spinning > * {
+    -webkit-filter: blur(7px);
+            filter: blur(7px);
+    pointer-events: none; }
+
+@-webkit-keyframes spinner-pulsing {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes spinner-pulsing {
+  0%, 100% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }

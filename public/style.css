@@ -1,0 +1,51 @@
+/**************************************************/
+/******************* variables ********************/
+/**************************************************/
+/**************************************************/
+/***************** general styles *****************/
+/**************************************************/
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  font-family: "Gotham Rounded", Helvetica, sans-serif;
+  color: #938F8D;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px; }
+
+a {
+  color: #FF5F19;
+  text-decoration: none; }
+
+.logo {
+  width: 63px; }
+
+.animation-container {
+  margin: 70px auto 100px; }
+
+input,
+textarea {
+  display: block;
+  width: 280px;
+  margin: 1rem auto;
+  padding: .8em;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebebeb;
+  color: #555555;
+  font: inherit;
+  font-weight: 300;
+  resize: vertical; }
+
+input[type=submit] {
+  width: auto;
+  padding: 0.6em 1.3em;
+  border: none;
+  background-color: #FF5F19;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer; }

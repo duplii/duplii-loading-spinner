@@ -1,0 +1,67 @@
+/**************************************************/
+/******************* variables ********************/
+/**************************************************/
+
+$orange: #FF5F19;
+$white: #FFFFFF;
+$main: #938F8D;
+$mainTitles: #5A5655;
+$lightGray: #D1CDCB;
+$darkGray: #979797;
+
+/**************************************************/
+/***************** general styles *****************/
+/**************************************************/
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-family: "Gotham Rounded", Helvetica, sans-serif;
+	color: $main;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+a {
+	color: $orange;
+	text-decoration: none;
+}
+
+.logo {
+	width: 63px;
+}
+
+.animation-container {
+	margin: 70px auto 100px;
+}
+
+input,
+textarea {
+	display: block;
+	width: 280px;
+	margin: 1rem auto;
+	padding: .8em;
+	border: none;
+	border-radius: 5px;
+	background-color: #ebebeb;
+	color: #555555;
+	font: inherit;
+	font-weight: 300;
+	resize: vertical;
+}
+
+input[type=submit] {
+	width: auto;
+	padding: .6em 1.3em;
+	border: none;
+	background-color: $orange;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
