@@ -22,7 +22,7 @@ You might even go a step further and disable form elements altogether in order t
 
 A live demo of this project can be found [here](//duplii.github.io/duplii-loading-spinner "Duplii | Loading spinner animation").
 
-![Loading spinner screenshot](//duplii.github.io/duplii-congratulation/public/screenshot.jpg)
+![Loading spinner screenshot](http://duplii.github.io/duplii-loading-spinner/public/screenshot.png)
 
 ## MIT License
 
