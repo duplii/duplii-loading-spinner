@@ -24,6 +24,10 @@ A live demo of this project can be found [here](//duplii.github.io/duplii-loadin
 
 ![Loading spinner screenshot](http://duplii.github.io/duplii-loading-spinner/public/screenshot.png)
 
+## Credits
+
+The idea for the spinner comes from this [nice collection](http://tobiasahlin.com/spinkit/), I just tweaked minor things and provisioned the blur thing.
+
 ## MIT License
 
 Copyright (c) 2015 Making Duplication Technologies ltd
